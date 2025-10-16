@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1 class="heading01 mb-50">Check Weather</h1>
+      <form id="weatherLocationForm">
+        <input
+          type="search"
+          id="location"
+          list="locations"
+          placeholder="Location" />
+        <datalist id="locations">
+          <option value="Mumbai"></option>
+          <option value="Pune"></option>
+          <option value="Hyderabad"></option>
+          <option value="Lucknow"></option>
+          <option value="Delhi"></option>
+        </datalist>
+
+        <input type="submit" value="Search" />
+      </form>
+
+      <div id="weatherInfoCard">
+        <p>Loading...!!</p>
+      </div>
+    </div>
+  </body>
+</html>
