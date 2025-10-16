@@ -59,6 +59,11 @@ body {
   background: var(--purple);
   padding: 40px 20px;
   border-radius: 20px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .mb-50 {
